@@ -1,0 +1,12 @@
+
+public enum Colori {
+	
+	
+RED, GREEN, BLUE;
+	
+	
+	
+	private Colori() {
+		
+	}
+}

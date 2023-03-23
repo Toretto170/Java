@@ -1,0 +1,9 @@
+
+public class MagliaDemo {
+
+	public static void main(String[] args) {
+		Maglia n = new Maglia(10, 48, "verde pisello")
+			System.out.println(m);
+	}
+
+}

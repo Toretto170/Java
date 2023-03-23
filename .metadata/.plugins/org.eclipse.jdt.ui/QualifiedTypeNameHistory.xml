@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="forme.Punto"/>
+    <fullyQualifiedTypeName name="forme.Segmento"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="test.TriangoloTest"/>
+    <fullyQualifiedTypeName name="forme.Triangolo"/>
+    <fullyQualifiedTypeName name="view.RubricaDemo"/>
+    <fullyQualifiedTypeName name="controller.Rubrica"/>
+    <fullyQualifiedTypeName name="model.Contatto"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="model.Azienda"/>
+    <fullyQualifiedTypeName name="model.Segreteria"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="model.Impiegato"/>
+    <fullyQualifiedTypeName name="database.DbImpiegati"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.lang.Process"/>
+    <fullyQualifiedTypeName name="model.Veicolo"/>
+    <fullyQualifiedTypeName name="model.Trattore"/>
+    <fullyQualifiedTypeName name="model.Automobile"/>
+    <fullyQualifiedTypeName name="Maglia"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="model.Azione"/>
+    <fullyQualifiedTypeName name="org.apache.jasper.tagplugins.jstl.core.ForEach"/>
+    <fullyQualifiedTypeName name="controller.Portafoglio"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="fakeDB.Database"/>
+</qualifiedTypeNameHistroy>
