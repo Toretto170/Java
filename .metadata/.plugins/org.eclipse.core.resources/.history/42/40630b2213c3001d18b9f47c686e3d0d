@@ -1,6 +1,0 @@
-
-public interface Contratto {
-	
-	// implicitamente public e abstract
-	void termine1();
-}
