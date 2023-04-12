@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="forme.Punto"/>
-    <fullyQualifiedTypeName name="forme.Segmento"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="test.TriangoloTest"/>
     <fullyQualifiedTypeName name="forme.Triangolo"/>
     <fullyQualifiedTypeName name="view.RubricaDemo"/>
     <fullyQualifiedTypeName name="controller.Rubrica"/>
     <fullyQualifiedTypeName name="model.Contatto"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="model.Azienda"/>
     <fullyQualifiedTypeName name="model.Segreteria"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -40,21 +36,28 @@
     <fullyQualifiedTypeName name="com.spadea.model.Titolo"/>
     <fullyQualifiedTypeName name="com.spadea.controller.Portafoglio"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="com.spadea.repos.TitoloDAO"/>
+    <fullyQualifiedTypeName name="com.spadea.services.TitoloService"/>
+    <fullyQualifiedTypeName name="com.spadea.entities.Titolo"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
     <fullyQualifiedTypeName name="jakarta.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-    <fullyQualifiedTypeName name="com.spadea.repos.TitoloDAO"/>
+    <fullyQualifiedTypeName name="com.spadea.repos.LibroDAO"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
-    <fullyQualifiedTypeName name="com.spadea.services.TitoloService"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="com.spadea.entities.Titolo"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.spadea.services.LibroService"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="com.spadea.entities.Libro"/>
 </qualifiedTypeNameHistroy>
