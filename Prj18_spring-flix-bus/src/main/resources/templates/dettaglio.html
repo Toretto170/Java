@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h1 th:text="${Titolo}">Titolo</h1>
+	
+	<div th:object="${Viaggio}">
+		<h3 th:text=$*{partenza}></h3>
+		<h3 th:text=$*{destinazione}></h3>
+		<h3 th:text=$*{durata}></h3>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h1 th:text="${Titolo}">Titolo</h1>
+	<ul>
+		<li th:each="Viaggi:${Viaggi}">  
+			<a th:href="@{dettaglio/}+${Viaggi.id}" th:text="${Viaggi.destinazione"></a>
+		</li>
+	</ul>
+	
+</body>
+</html>
