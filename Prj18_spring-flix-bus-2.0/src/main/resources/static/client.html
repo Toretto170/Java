@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Viaggi</h1>
+	<!-- <form action=""> -->
+		<input type="text" placeholder="partenza" id="partenza">
+		<br>
+		<input type="text" placeholder="destinazione" id="destinazione">
+		<br>
+		<button onclick=Aggiungi()>Add</button>
+
+
+	<!-- </form> -->
+	<script>
+		const URL = "http://localhost:9015/api/viaggi"
+		fetch(URL)
+			.then(res => res.json())
+			.then(risposta => {
+				//console.log(risposta);
+				const TABELLA = document.createElement("table");
+				for (const Viaggio of risposta) {
+					console.log(Viaggio.destinazione);
+					const RIGA = document.createElement("tr");
+					const CELLAUNO = document.createElement("td");
+					const CELLADUE = document.createElement("td");
+					CELLAUNO.textContent = Viaggio.partenza;
+					CELLADUE.textContent = Viaggio.destinazione;
+					RIGA.append(CELLAUNO,CELLADUE);
+					TABELLA.append(RIGA);
+				}
+				document.body.append(TABELLA);
+
+			}) 
+			
+			function Aggiungi() {
+				const Viaggio = {
+					partenza:document.getElementById('partenza').value,
+					destinazione:document.getElementById('destinazione').value,
+					durata: 4
+				}
+				fetch(URL,{
+					method:"post",
+					body: JSON.stringify(Viaggio),
+				})
+					.then(res => risposta.json())
+					.then(risposta => console.log(risposta))
+			}
+	</script>
+</body>
+</html>
