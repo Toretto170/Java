@@ -8,8 +8,10 @@ public class puntoDemo {
 		Punto a= new Punto(3, 2);
 		Punto b= new Punto(7, 2);
 		
+		
 		System.out.println(a);
 		System.out.println(b);
+		System.out.print("testo");
 	}
 
 }
