@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.spadea.entities.Provincia;
-import com.spadea.services.ProviciaService;
+import com.spadea.services.ProvinciaService;
 
 @RestController
 @RequestMapping("api")
 public class ControllerREST {
 
 	@Autowired
-	private ProviciaService service;
+	private ProvinciaService service;
 	
 	@GetMapping("province")
 	List<Provincia> getProvince(){

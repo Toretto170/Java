@@ -12,10 +12,18 @@ import com.spadea.entities.Provincia;
 import com.spadea.repo.ProvinciaDAO;
 
 @Service
-public class ProvinciaServiceImpl implements ProviciaService {
+public class ProvinciaServiceImpl implements ProvinciaService {
 	
 	@Autowired
 	private ProvinciaDAO dao;
+
+	List<Provincia> provincie;
+	
+	
+	
+	public ProvinciaServiceImpl() {
+		this.provincie = getProvince();
+	}
 
 	@Override
 	public List<String> getRegioni() {
@@ -37,8 +45,12 @@ public class ProvinciaServiceImpl implements ProviciaService {
 
 	@Override
 	public List<Provincia> getProvinceByRegione(String regione) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return provincie
+				.stream()
+				.filter(p -> p.getRegione().equals(regione))
+				.toList();
+		//return dao.findByRegione(regione);
 	}
 
 	@Override

@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.spadea.entities.Provincia;
 
-public interface ProviciaService {
+public interface ProvinciaService {
 	
 	List<String> getRegioni();
 	
