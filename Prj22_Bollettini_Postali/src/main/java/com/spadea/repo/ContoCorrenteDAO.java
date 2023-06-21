@@ -6,4 +6,5 @@ import com.spadea.entities.ContoCorrente;
 
 public interface ContoCorrenteDAO extends JpaRepository<ContoCorrente, Long> {
 
+	
 }

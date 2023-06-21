@@ -1,6 +1,7 @@
 package com.spadea.integration;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -34,4 +35,16 @@ public class ControllerREST {
 	public List<ContoCorrente> getContiCorrenti(){
 		return service.getContiCorrenti();
 	}
-}
+	@PostMapping("api/addcontocorrente")
+	public ContoCorrente addContoCorrente(@RequestBody ContoCorrente c){
+		return service.addContoCorrente(c);
+	}
+	@PostMapping("api/addconticorrenti")
+	public List<ContoCorrente> addContiCorrenti(@RequestBody List<ContoCorrente> c){
+		return service.addContiCorrenti(c);
+	}
+	@GetMapping("api/conticorrenti/{codiceConto}")
+	public Optional<ContoCorrente> getContoCorrenteById(@PathVariable long codiceConto) {
+		return service.getContoCorrentebyCodiceConto(codiceConto);
+	}
+ }

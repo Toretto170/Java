@@ -1,6 +1,7 @@
 package com.spadea.services;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,14 +20,14 @@ public class BolPostServiceImpl implements BolPostService {
 	private ContoCorrenteDAO ccDao;
 	
 	@Override
-	public ContoCorrente getContoCorrentebyCodiceConto(long codiceConto) {
-		// TODO Auto-generated method stub
-		return ccDao.getReferenceById(codiceConto);
+	public Optional<ContoCorrente> getContoCorrentebyCodiceConto(long codiceConto) {
+		
+		return ccDao.findById(codiceConto);
 	}
 
 	@Override
 	public List<ContoCorrente> getContiCorrenti() {
-		// TODO Auto-generated method stub
+		
 		return ccDao.findAll();
 	}
 
@@ -38,22 +39,32 @@ public class BolPostServiceImpl implements BolPostService {
 
 	@Override
 	public List<Bollettino> getBollettini() {
-		// TODO Auto-generated method stub
+		
 		return bolDao.findAll();
 	}
 
 	@Override
 	public Bollettino addBollettino(Bollettino b) {
-		if (getContoCorrentebyCodiceConto(b.getCodiceContoDestinatario())!=null) {
-			return bolDao.save(b);			
+		Optional<ContoCorrente> c = getContoCorrentebyCodiceConto(b.getCodiceContoDestinatario());
+		if(c.isEmpty() == false) {
+			
+			return bolDao.save(b);
 		}
+		
 		return null;
 	}
 
 	@Override
 	public Bollettino getBollettinobyId(String codiceBollettino) {
-		// TODO Auto-generated method stub
-		return bolDao.getReferenceById(codiceBollettino);
+		
+		return bolDao.findByCodiceBollettino(codiceBollettino);
+	}
+
+
+	@Override
+	public List<ContoCorrente> addContiCorrenti(List<ContoCorrente> c) {
+		
+		return ccDao.saveAll(c);
 	}
 
 }
