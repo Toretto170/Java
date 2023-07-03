@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 <title>Bollettino</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Pagamento Bollettino</h1>
-    <div>
+    <div id="dati-bollettino">
         <label>Conto Corrente su cui effettuare pagamento(6 cifre):
-            <input  id="cc-input" size="2" minlength="6" maxlength="6">
+            <input  id="cc-input" size="2" type="number" >
         </label>
         <label>Codice Prestampato Bollettino :
             <input id="cps-input" size="2">
@@ -20,6 +20,11 @@
         <label>Importo in Euro :
             <input  id="importo-input" size="2">$
         </label>
+        <button type="submit" id="button-check"> Controlla se il codice conto abilitato </button>
+    </div>
+    <div id="ricerca-bollettini">
+        <label>Inserisci il tuo codice bollettino</label>
+        <input type="text" id="searchBollettino">
     </div>
 </body>
 <script src="main.js"></script>

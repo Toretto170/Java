@@ -4,17 +4,15 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 import com.spadea.entities.Bollettino;
 import com.spadea.entities.ContoCorrente;
 import com.spadea.services.BolPostService;
 
 @RestController
+@CrossOrigin(origins ="*")
 public class ControllerREST {
 
 	@Autowired
@@ -44,7 +42,12 @@ public class ControllerREST {
 		return service.addContiCorrenti(c);
 	}
 	@GetMapping("api/conticorrenti/{codiceConto}")
-	public Optional<ContoCorrente> getContoCorrenteById(@PathVariable long codiceConto) {
-		return service.getContoCorrentebyCodiceConto(codiceConto);
+	public ResponseEntity<ContoCorrente> getContoCorrenteById(@PathVariable long codiceConto) {
+		Optional<ContoCorrente> resource = service.getContoCorrentebyCodiceConto(codiceConto);
+		if (resource.isEmpty()) {
+			return ResponseEntity.notFound().build();
+		}
+		ContoCorrente contoCorrente = resource.get();
+		return ResponseEntity.ok(contoCorrente);
 	}
  }
