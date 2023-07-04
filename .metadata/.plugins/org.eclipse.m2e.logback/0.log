@@ -4813,3 +4813,116 @@
 2023-06-21 12:29:26,410 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2023-06-21 12:29:26,416 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2023-06-21 12:29:26,453 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj22_Bollettini_Postali\src\test\resources
+2023-06-21 12:50:37,808 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-21 12:50:37,810 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-21 12:50:37,828 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj22_Bollettini_Postali\src\test\resources
+2023-06-21 12:51:13,011 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-21 12:51:13,014 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-21 12:51:13,033 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj22_Bollettini_Postali\src\test\resources
+2023-06-21 12:51:50,859 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-21 12:51:50,862 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-21 12:51:50,877 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj22_Bollettini_Postali\src\test\resources
+2023-06-21 12:51:51,924 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-21 12:51:51,927 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-21 12:51:51,949 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj22_Bollettini_Postali\src\test\resources
+2023-06-21 12:51:58,190 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-21 12:51:58,194 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-21 12:51:58,309 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj22_Bollettini_Postali\src\test\resources
+2023-06-21 12:51:59,887 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2023-06-21 12:51:59,905 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-21 12:51:59,945 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj22_Bollettini_Postali\src\test\resources
+2023-06-22 13:49:38,146 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-27 10:03:20,770 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-28 16:31:19,658 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-06-28 17:15:04,470 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-28 17:15:04,616 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-28 17:15:04,626 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj15_spring-hello-better\src\test\resources
+2023-06-28 17:15:11,214 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-28 17:15:11,420 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-06-28 17:15:11,479 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj16_spring-finance\src\test\resources
+2023-06-28 17:15:15,262 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-28 17:15:15,444 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-06-28 17:15:15,849 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj17_spring-books\src\test\resources
+2023-06-28 17:15:19,453 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-06-28 17:15:19,552 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-06-28 17:15:19,984 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj18_spring-flix-bus\src\test\resources
+2023-06-28 17:15:27,786 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-28 17:15:27,947 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-28 17:15:28,080 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj18_spring-flix-bus-2.0\src\test\resources
+2023-06-28 17:15:31,925 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-28 17:15:32,066 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-28 17:15:32,305 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj19_Popolazione\src\test\resources
+2023-06-28 17:15:34,479 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-28 17:15:34,590 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2023-06-28 17:15:35,518 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj20_Esercitazione_Finanza\src\test\resources
+2023-06-28 17:15:42,557 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-28 17:15:42,606 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-06-28 17:15:42,849 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj21_Agenzia_Viaggi\src\test\resources
+2023-06-28 17:15:44,405 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-06-28 17:15:44,515 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-06-28 17:15:44,582 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj22_Bollettini_Postali\src\test\resources
+2023-07-04 09:01:31,180 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-07-04 09:02:03,405 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-04 09:02:03,509 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-04 09:02:03,522 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj15_spring-hello-better\src\test\resources
+2023-07-04 09:02:06,761 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-04 09:02:06,843 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-07-04 09:02:06,862 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj16_spring-finance\src\test\resources
+2023-07-04 09:02:08,821 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-04 09:02:08,953 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-07-04 09:02:09,422 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj17_spring-books\src\test\resources
+2023-07-04 09:02:11,217 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-07-04 09:02:11,503 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources
+2023-07-04 09:02:11,824 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj18_spring-flix-bus\src\test\resources
+2023-07-04 09:02:14,255 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-04 09:02:14,318 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-04 09:02:14,341 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj18_spring-flix-bus-2.0\src\test\resources
+2023-07-04 09:02:15,357 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-04 09:02:15,519 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-04 09:02:15,591 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj19_Popolazione\src\test\resources
+2023-07-04 09:02:16,585 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-04 09:02:16,625 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2023-07-04 09:02:16,765 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj20_Esercitazione_Finanza\src\test\resources
+2023-07-04 09:02:19,208 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-04 09:02:19,240 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-04 09:02:19,304 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj21_Agenzia_Viaggi\src\test\resources
+2023-07-04 09:02:20,319 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2023-07-04 09:02:20,355 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2023-07-04 09:02:20,401 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory Z:\Java\Prj22_Bollettini_Postali\src\test\resources
+2023-07-04 09:05:32,459 [Worker-5: Computing Git status for repository Java] ERROR o.e.j.i.storage.file.PackDirectory - Exception caught while accessing pack file Z:\Java\.git\objects\pack\pack-d84b33b613f95151ae8e28f46616ef258c6e2a68.pack, the pack file might be corrupt. Caught 1 consecutive errors while trying to read this pack.
+java.io.IOException: Unreadable pack index: Z:\Java\.git\objects\pack\pack-d84b33b613f95151ae8e28f46616ef258c6e2a68.idx
+	at org.eclipse.jgit.internal.storage.file.PackIndex.open(PackIndex.java:69)
+	at org.eclipse.jgit.internal.storage.file.Pack.idx(Pack.java:160)
+	at org.eclipse.jgit.internal.storage.file.Pack.get(Pack.java:272)
+	at org.eclipse.jgit.internal.storage.file.PackDirectory.open(PackDirectory.java:219)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectory.openPackedObject(ObjectDirectory.java:420)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectory.openPackedFromSelfOrAlternate(ObjectDirectory.java:384)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectory.openObjectWithoutRestoring(ObjectDirectory.java:375)
+	at org.eclipse.jgit.internal.storage.file.ObjectDirectory.openObject(ObjectDirectory.java:360)
+	at org.eclipse.jgit.internal.storage.file.WindowCursor.open(WindowCursor.java:140)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.hasCrLfInIndex(WorkingTreeIterator.java:1540)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEolStreamType(WorkingTreeIterator.java:1475)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.possiblyFilteredInputStream(WorkingTreeIterator.java:406)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.idBufferBlob(WorkingTreeIterator.java:390)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.idBuffer(WorkingTreeIterator.java:311)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.getEntryObjectId(AbstractTreeIterator.java:408)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.contentCheck(WorkingTreeIterator.java:1051)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.isModified(WorkingTreeIterator.java:954)
+	at org.eclipse.jgit.treewalk.filter.IndexDiffFilter.include(IndexDiffFilter.java:205)
+	at org.eclipse.jgit.treewalk.filter.TreeFilter.matchFilter(TreeFilter.java:195)
+	at org.eclipse.jgit.treewalk.filter.AndTreeFilter$List.matchFilter(AndTreeFilter.java:157)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:918)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:477)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.lambda$8(IndexDiffCacheEntry.java:634)
+	at org.eclipse.egit.core.UnitOfWork.run(UnitOfWork.java:115)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:627)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$2.reload(IndexDiffCacheEntry.java:398)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$IndexDiffReloadJob.run(IndexDiffCacheEntry.java:775)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: Z:\Java\.git\objects\pack\pack-d84b33b613f95151ae8e28f46616ef258c6e2a68.idx (Impossibile accedere al file. Il file è utilizzato da un altro processo)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jgit.util.io.SilentFileInputStream.<init>(SilentFileInputStream.java:31)
+	at org.eclipse.jgit.internal.storage.file.PackIndex.open(PackIndex.java:65)
+	... 27 common frames omitted
