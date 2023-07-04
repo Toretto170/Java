@@ -46,11 +46,9 @@ public class BolPostServiceImpl implements BolPostService {
 	@Override
 	public Bollettino addBollettino(Bollettino b) {
 		Optional<ContoCorrente> c = getContoCorrentebyCodiceConto(b.getCodiceContoDestinatario());
-		if(c.isEmpty() == false) {
-			
+		if(c.isPresent()) {
 			return bolDao.save(b);
 		}
-		
 		return null;
 	}
 
