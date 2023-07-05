@@ -1,0 +1,19 @@
+h1{
+    color:coral;}
+input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    text-shadow: 30px;
+}
+label{
+    font-size: 20px;
+}
+img{
+    height: 550px;
+    padding: 10px;
+    text-align: center;
+}
+#buttoncheck{
+    width: 20%;
+}
+
