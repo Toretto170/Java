@@ -33,4 +33,9 @@ public class WorksiteServicesImpl implements  WorksiteServices{
     public List<Worksite> addManyWorksites(List<Worksite> worksiteList) {
         return worksiteDAO.saveAll(worksiteList);
     }
+
+    public Worksite getWorksitebyName(String compName){
+
+        return  worksiteDAO.findWorksiteByCompName(compName);
+    }
 }

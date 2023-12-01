@@ -33,5 +33,8 @@ public class ControllerRest {
         return interventionServices.addIntervention(interventionList);
     }
 
-
+    @GetMapping("api/intervention/{compName}")
+    public Worksite getIntervetionByWorksite(@PathVariable String compName){
+        return worksiteServices.
+    }
 }

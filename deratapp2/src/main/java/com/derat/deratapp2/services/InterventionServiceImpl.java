@@ -17,6 +17,7 @@ public class InterventionServiceImpl implements InterventionServices{
     @Autowired
     private WorksiteDAO worksiteDAO;
 
+
     @Override
     public List<Intervention> addIntervention(List<Intervention> interventionList) {
         return interventionDAO.saveAll(interventionList);
@@ -24,7 +25,8 @@ public class InterventionServiceImpl implements InterventionServices{
 
     @Override
     public List<Intervention> getInterventionByWorksite(String compName) {
-        return interventionDAO.findInterventionByWorksiteCompanyName(compName);
+        Worksite w = worksiteDAO.findWorksiteByCompName(compName);
+        return interventionDAO.findInterventionByWorksiteId(w.getId());
     }
 
     @Override
@@ -33,7 +35,7 @@ public class InterventionServiceImpl implements InterventionServices{
     }
 
     @Override
-    public List<Intervention> getInterventionByTrapNumber(byte trapsNum,Worksite worksite) {
+    public List<Intervention> getInterventionByTrapNumber(byte trapsNum, Worksite worksite) {
         return null;
     }
 }

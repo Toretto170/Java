@@ -1,9 +1,9 @@
 package com.derat.deratapp2.entities;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+
+import java.util.List;
+
 /**
  * This Class represents ech worksite */
 @Entity
@@ -14,6 +14,8 @@ public class Worksite {
     private int id;
 
     private String compName;
+    @OneToMany(mappedBy = "worksite",cascade = CascadeType.ALL)
+    private List<Intervention> interventions;
 
     public int getId() {
         return id;
@@ -29,5 +31,13 @@ public class Worksite {
 
     public void setCompName(String compName) {
         this.compName = compName;
+    }
+
+    public List<Intervention> getInterventions() {
+        return interventions;
+    }
+
+    public void setInterventions(List<Intervention> interventions) {
+        this.interventions = interventions;
     }
 }

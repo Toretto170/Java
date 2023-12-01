@@ -8,6 +8,6 @@ import java.time.LocalDate;
 import java.util.List;
 
 public interface InterventionDAO extends JpaRepository<Intervention,Integer> {
-    List<Intervention> findInterventionByWorksiteCompanyName(String compName);
+    List<Intervention> findInterventionByWorksiteId(int id);
 
 }
