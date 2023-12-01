@@ -5,5 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface WorksiteDAO extends JpaRepository<Worksite,Integer> {
 
-    Worksite findWorksiteByCompName(String compName);
+
 }

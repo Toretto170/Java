@@ -25,8 +25,8 @@ public class InterventionServiceImpl implements InterventionServices{
 
     @Override
     public List<Intervention> getInterventionByWorksite(String compName) {
-        Worksite w = worksiteDAO.findWorksiteByCompName(compName);
-        return interventionDAO.findInterventionByWorksiteId(w.getId());
+
+        return null;
     }
 
     @Override

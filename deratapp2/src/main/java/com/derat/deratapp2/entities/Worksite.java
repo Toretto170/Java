@@ -14,8 +14,6 @@ public class Worksite {
     private int id;
 
     private String compName;
-    @OneToMany(mappedBy = "worksite",cascade = CascadeType.ALL)
-    private List<Intervention> interventions;
 
     public int getId() {
         return id;
@@ -33,11 +31,4 @@ public class Worksite {
         this.compName = compName;
     }
 
-    public List<Intervention> getInterventions() {
-        return interventions;
-    }
-
-    public void setInterventions(List<Intervention> interventions) {
-        this.interventions = interventions;
-    }
 }

@@ -11,4 +11,5 @@ public interface WorksiteServices {
     List<Worksite> getAllWorksite();
     List<Worksite> addManyWorksites(List<Worksite> worksiteList);
 
+    Worksite getWorksitebyName(String compName);
 }

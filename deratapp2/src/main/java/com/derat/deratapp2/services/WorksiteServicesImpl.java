@@ -34,8 +34,9 @@ public class WorksiteServicesImpl implements  WorksiteServices{
         return worksiteDAO.saveAll(worksiteList);
     }
 
+    @Override
     public Worksite getWorksitebyName(String compName){
 
-        return  worksiteDAO.findWorksiteByCompName(compName);
+        return  null;
     }
 }
