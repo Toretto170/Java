@@ -33,4 +33,8 @@ public class ControllerRest {
         return interventionServices.addIntervention(interventionList);
     }
 
+    @GetMapping("api/intervention")
+    public List<Intervention> interventionsByWorksite(@RequestParam(value = "comp_name") String compName){
+        return interventionServices.getInterventionByWorksite(compName);
+    }
 }
